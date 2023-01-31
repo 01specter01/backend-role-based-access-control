@@ -22,7 +22,7 @@ const users = [
     {
         id: 4,
         username: "user4",
-        role: "Editor",
+        role: "Mastermind",
     },
 ];
 
