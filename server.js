@@ -3,8 +3,8 @@ dotenv.config();
 
 import express from "express";
 import checkToken from "./middlewares/checkToken.js";
-import authRouter from "./routes/auth.js";
-import protectedRouter from "./routes/protectedRoutes.js";
+import authRouter from "./routers/auth.js";
+import protectedRouter from "./routers/protectedRouter.js";
 const app = express();
 
 const port = process.env.PORT || 4000;
