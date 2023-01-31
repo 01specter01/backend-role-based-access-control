@@ -35,3 +35,5 @@ router.post("/login", (req, res, next) => {
 });
 
 export default router;
+
+// post request with auth/login/ erst dann wird autherised, danach erst protected router machen

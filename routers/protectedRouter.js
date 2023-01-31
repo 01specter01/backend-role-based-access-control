@@ -17,3 +17,5 @@ router.delete("/:id", checkRole(["Admin", "Mastermind"]), (req, res, next) => {
 });
 
 export default router;
+
+// post request with protected-routes erst im anschluss an auth route , mit token der bei post: "token": "eyJhbGciOiJIUzUxMiIsInR5cCI6IkpXVCJ9.eyJpZCI6Miwicm9sZSI6IkVkaXRvciIsImlhdCI6MTY3NTE3NzQ2MiwiZXhwIjoxNjc1MTgwNDYyfQ.uJXrXZpZ29J5JP03sQgQjjhtHKODkSdQ_dv3nhZNNrSZkzOzBVUjEYZHGWFOPLXICCOFz5oabHJrpPXHMA-JqQ"
